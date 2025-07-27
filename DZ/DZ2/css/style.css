@@ -1,0 +1,84 @@
+/*Шапка  сайта*/
+header {
+    width: auto;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 50px;
+    background-color: aqua;
+    color: aliceblue;
+}
+
+/*Верхнее меню*/
+nav {
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(75, 117, 117, 0.397);
+    border: 1px solid black;
+}
+
+button.butstyle:hover {
+    background-color: rgb(110, 109, 109);
+    text-decoration: none;
+    background-color: rgb(155, 155, 155);
+    border: 1px solid whitesmoke;
+    cursor: pointer
+}
+
+/*Стиль текста кнопок верхнего меню*/
+
+button.butstyle:hover {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer
+}
+
+button.butstyle:visited {
+    color: rgb(149, 199, 199);
+}
+
+/*Контент Головна*/
+main.content {
+    border: 1px solid black;
+    margin: auto;
+    background-color: rgb(233, 233, 139);
+    text-align: center;
+}
+
+ul,li {
+    margin-left: 20px;
+    text-align: left;
+}
+
+/*Контент в Про Нас*/
+main.contentabout {
+    border: 1px solid black;
+    margin: auto;
+    background-color: rgba(75, 117, 117, 0.397);
+    text-align: center;
+}
+
+div.about {
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid black
+}
+
+/*Контент в Контакти*/
+div.contacts {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+th {
+    border: 1px solid black;
+    background-color: rgba(243, 183, 109, 0.315);
+}
